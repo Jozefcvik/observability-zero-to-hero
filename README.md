@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # observability-zero-to-hero
 
 https://github.com/iam-veeramalla/observability-zero-to-hero
@@ -66,3 +67,7 @@ Grafana Login:
         - kubectl get secret -n monitoring monitoring-grafana -o jsonpath="{.data.admin-password}" | base64 --decode && echo
                 - admin
                 - password
+=======
+# prometheus-Grafana-Zero-to-Hero
+[WIP]: Repo for learning how monitor your kubernetes clusters using prometheus and visualize using grafana
+>>>>>>> 4bc459a (Initial commit)
