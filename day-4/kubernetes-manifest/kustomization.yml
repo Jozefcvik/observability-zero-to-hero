@@ -6,3 +6,4 @@ resources:
   - service-svc-a.yml
   - deployment-svc-b.yml
   - service-svc-b.yml
+  - ingress-svc-a.yaml

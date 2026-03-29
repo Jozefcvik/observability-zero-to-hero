@@ -16,7 +16,7 @@ spec:
         app: service-b-deployment
     spec:
       containers:
-      - image: abhishekf5/demoservice-a:v
+      - image: jozefcvik/observability-zero-to-hero-demoservice-b:latest
         name: service-b
         imagePullPolicy: Always
         ports:

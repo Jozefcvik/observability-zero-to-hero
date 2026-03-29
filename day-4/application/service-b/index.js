@@ -12,6 +12,6 @@ app.get('/hello', (req, res) => {
   res.send('Hello from Service B!');
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Service B is running on port ${PORT}`);
 });
