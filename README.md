@@ -47,6 +47,14 @@ kubectl apply -f prometheus-ingress.yaml
 kubectl apply -f grafana-ingress.yaml
 kubectl apply -f alertmanager-ingress.yaml
 ```
+```bash
+sudo vim /etc/hosts
+```
+```bash
+<k8s-ip> prometheus.local
+<k8s-ip> grafana.local
+<k8s-ip> alertmanager.local
+```
 - http://prometheus.local:32437
 - http://grafana.local:32437
 - http://alertmanager.local:32437
